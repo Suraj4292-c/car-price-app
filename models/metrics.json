@@ -1,0 +1,83 @@
+{
+  "best_model": "LightGBM (3-seed average)",
+  "rows": 40320,
+  "price_range_coverage_on_test": 0.815,
+  "models": {
+    "Ridge (linear baseline)": {
+      "cv": {
+        "r2": 0.7562,
+        "mae_lakhs": 1.197,
+        "mape_pct": 14.21,
+        "median_ape_pct": 10.01,
+        "within_10pct": 49.9,
+        "within_20pct": 78.4
+      },
+      "test": {
+        "r2": 0.7881,
+        "mae_lakhs": 1.123,
+        "mape_pct": 13.51,
+        "median_ape_pct": 9.43,
+        "within_10pct": 52.3,
+        "within_20pct": 79.9
+      },
+      "seconds": 2
+    },
+    "LightGBM, no variant/city": {
+      "cv": {
+        "r2": 0.8134,
+        "mae_lakhs": 1.162,
+        "mape_pct": 14.62,
+        "median_ape_pct": 10.79,
+        "within_10pct": 46.9,
+        "within_20pct": 76.4
+      },
+      "test": {
+        "r2": 0.8524,
+        "mae_lakhs": 1.093,
+        "mape_pct": 13.92,
+        "median_ape_pct": 10.31,
+        "within_10pct": 48.8,
+        "within_20pct": 78.1
+      },
+      "seconds": 13
+    },
+    "LightGBM (1 seed)": {
+      "cv": {
+        "r2": 0.8128,
+        "mae_lakhs": 1.017,
+        "mape_pct": 12.19,
+        "median_ape_pct": 8.22,
+        "within_10pct": 57.5,
+        "within_20pct": 82.8
+      },
+      "test": {
+        "r2": 0.8504,
+        "mae_lakhs": 0.936,
+        "mape_pct": 11.42,
+        "median_ape_pct": 7.78,
+        "within_10pct": 59.3,
+        "within_20pct": 84.6
+      },
+      "seconds": 22
+    },
+    "LightGBM (3-seed average)": {
+      "cv": {
+        "r2": 0.8141,
+        "mae_lakhs": 1.009,
+        "mape_pct": 12.11,
+        "median_ape_pct": 8.17,
+        "within_10pct": 57.8,
+        "within_20pct": 82.9
+      },
+      "test": {
+        "r2": 0.8488,
+        "mae_lakhs": 0.93,
+        "mape_pct": 11.34,
+        "median_ape_pct": 7.7,
+        "within_10pct": 59.9,
+        "within_20pct": 84.4
+      },
+      "seconds": 66
+    }
+  }
+}
